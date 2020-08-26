@@ -1,11 +1,7 @@
 # Data visualization Report of COVID-19 Live data using QLIK Sense Tool for QLIK Datathon
-Covid-19 has affected the world in far worse way. The health, economical affect including
-inflation and lay off of employment by many companies. But in every situation, there can be
-two effects. The positive impact of the pandemic is on environment. Due to less
-interference of the human caused by lock-down the nature was blooming and had some
-positive change on environment.
 
-By visualizing the COVID-19 live data upto May 5th,2020. Our team tried to layout the
-number of confirmed cases not only in the United states but also on globe scale. We tried to
-visualize the effect of harmful pollutant being reduced substantially in particular region
-where people followed lock-down rule.
+This Folder Contains Two time series tables are for the US confirmed cases and deaths, reported at the county level. They are named `time_series_covid19_confirmed_US.csv`, `time_series_covid19_deaths_US.csv`, respectively.
+
+Three time series tables are for the global confirmed cases, recovered cases and deaths. Australia, Canada and China are reported at the province/state level. Dependencies of the Netherlands, the UK, France and Denmark are listed under the province/state level. The US and other countries are at the country level. The tables are renamed  `time_series_covid19_confirmed_global.csv` and `time_series_covid19_deaths_global.csv`, and `time_series_covid19_recovered_global.csv`, respectively which are used for generating interactive dashboards please look into this file Data Vixens_ Challenge 5 - Coronavirus Pandemic.qvf
+
+we created the datavisulization report blog https://sway.office.com/hUbo5qkFBc6uX9U0?ref=Link
